@@ -102,6 +102,8 @@ function run_optimization()
     % Print torque + angles profile over time
     print_torque_profile(x_opt, params);
 
+    plot_arm_motion(x_opt, params);
+
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %% 5. Final summary
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
